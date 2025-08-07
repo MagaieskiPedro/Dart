@@ -6,7 +6,7 @@ void main(){
     "Refrigerante - R\$5.00",
     "Suco - R\$6.00",
     "Milkshake - R\$10.00"];
-    for(int i=1; i<=cardapio.lenght(); i++){
-        print("$i - ${cardapio[i]}")
+    for(int i =0; i<5;i++){
+        print("${i+1} - ${cardapio[i]}");
     }
 }
