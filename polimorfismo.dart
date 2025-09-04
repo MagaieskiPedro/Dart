@@ -16,7 +16,7 @@ class Cachorro extends Animal {
   Cachorro({required String nome, required int idade}):super(nome: nome, idade: idade);
   @override
   void fazerSom(){
-    print("AuAu $nome")
+    print("AuAu $nome");
   }
 
 }
